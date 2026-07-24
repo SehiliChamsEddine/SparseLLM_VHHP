@@ -25,7 +25,7 @@ def main():
     parser.add_argument("--save", type=str, default="", help="Path to save model.")
     parser.add_argument("--true-sequential", action="store_true", help="Run in true sequential mode.")
     parser.add_argument("--log_wandb", action="store_true", help="Log to W&B.")
-     parser.add_argument(
+    parser.add_argument(
         '--use_vacuum', 
         action='store_true', 
         help='Whether to use the vacuum pruning method for FFN layers.'
